@@ -14,3 +14,21 @@ body {
 .list {
   list-style: none;
 }
+
+/* Site logo */
+.logo {
+  color: #212121;
+}
+.fp-logo {
+  color: #2196f3;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: #212121;
+}
+
+/* Contacts */
+.contacts .link {
+  color: #757575;
+}
