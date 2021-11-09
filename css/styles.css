@@ -1,14 +1,24 @@
+/* цвет фона #ffffff */
 /* основной цвет текста #757575 */
 /* вторчний чвет текста #212121 */
-/* белый #FFFFFF */
 /* акцент #2196F3 */
+/* вторичный цвет фона #2F303A */
+/* цвет фона секции Команда #F5F4FA */
 /* цвет ссылок в футтере rgba(255, 255, 255, 0.6); */
-/* вторичный цвет фона #F5F4FA */
-/* цвет фона #ffffff */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --team-bgc: #f5f4fa;
+}
 
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--primary-bgc);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -17,18 +27,89 @@ body {
 
 /* Site logo */
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
 }
 .fp-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/* Site nav */
+/* Site navigation */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
 /* Contacts */
 .contacts .link {
-  color: #757575;
+  color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--secondary-bgc);
+}
+.hero-title {
+  color: var(--primary-bgc);
+}
+.hero-button {
+  color: var(--primary-bgc);
+  background-color: var(--accent-color);
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Worck */
+
+/* Team */
+.team-section {
+  background-color: var(--team-bgc);
+}
+.team-name {
+  color: var(--title-text-color);
+}
+.member {
+  background-color: var(--primary-bgc);
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--secondary-bgc);
+}
+.logo-footer {
+  color: var(--primary-bgc);
+}
+.logo-footer:focus,
+.logo-footer:hover {
+  color: var(--accent-color);
+}
+.address {
+  color: var(--primary-bgc);
+}
+.footer-contacts .link {
+  color: var(--footer-link-color);
+}
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--accent-color);
 }
