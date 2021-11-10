@@ -5,6 +5,7 @@
 /* вторичный цвет фона #2F303A */
 /* цвет фона секции Команда #F5F4FA */
 /* цвет ссылок в футтере rgba(255, 255, 255, 0.6); */
+/* цвет фильтров #F5F4FA */
 
 :root {
   --primary-text-color: #757575;
@@ -14,6 +15,7 @@
   --primary-bgc: #ffffff;
   --secondary-bgc: #2f303a;
   --team-bgc: #f5f4fa;
+  --filters-color: #f5f4fa;
 }
 
 body {
@@ -43,6 +45,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.cureent {
   color: var(--accent-color);
 }
 
@@ -112,4 +117,24 @@ body {
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
   color: var(--accent-color);
+}
+
+/* Оформление страницы portfolio.html */
+
+/* Filters */
+
+.filters .button {
+  background-color: var(--filters-color);
+  color: var(--title-text-color);
+}
+.filters .button:focus,
+.filters .button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
+/* Projects */
+
+.project-name {
+  color: var(--title-text-color);
 }
