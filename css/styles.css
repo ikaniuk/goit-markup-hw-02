@@ -70,6 +70,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -202,6 +203,12 @@ body {
 .filters .button {
   background-color: var(--filters-color);
   color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filters .button:focus,
 .filters .button:hover {
@@ -211,9 +218,20 @@ body {
 
 /* Projects */
 
+.projects a {
+  text-decoration: none;
+}
+
 .project-name {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .project {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
