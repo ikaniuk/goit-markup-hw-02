@@ -218,9 +218,9 @@ body {
 
 /* Projects */
 
-.projects a {
+/* .projects a {
   text-decoration: none;
-}
+} */
 
 .project-name {
   color: var(--title-text-color);
