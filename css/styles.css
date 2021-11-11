@@ -218,9 +218,9 @@ body {
 
 /* Projects */
 
-.projects a {
+/* .projects a {
   text-decoration: none;
-}
+} */
 
 .project-name {
   color: var(--title-text-color);
@@ -234,4 +234,5 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+  .
 }
