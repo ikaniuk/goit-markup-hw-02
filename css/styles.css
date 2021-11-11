@@ -36,6 +36,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
@@ -52,6 +53,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -107,6 +109,7 @@ body {
 }
 
 /* Section */
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -121,8 +124,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Work */
@@ -131,11 +138,23 @@ body {
 .team-section {
   background-color: var(--team-bgc);
 }
-.name {
-  color: var(--title-text-color);
-}
+
 .member {
   background-color: var(--primary-bgc);
+}
+
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 
 /* Footer */
@@ -144,6 +163,11 @@ body {
 }
 .logo-footer {
   color: var(--primary-bgc);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .logo-footer:focus,
 .logo-footer:hover {
@@ -151,9 +175,20 @@ body {
 }
 .address {
   color: var(--primary-bgc);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-contacts .link {
   color: var(--footer-link-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
