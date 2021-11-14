@@ -23,6 +23,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 .list {
@@ -38,10 +39,10 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo:hover,
+/* .logo:hover,
 .logo:focus {
   color: var(--accent-color);
-}
+} */
 .fp-logo {
   color: var(--accent-color);
 }
@@ -50,7 +51,6 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -67,7 +67,6 @@ body {
 .contacts .link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -123,13 +122,11 @@ body {
 .features .title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -170,16 +167,15 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo-footer:focus,
+/* .logo-footer:focus,
 .logo-footer:hover {
   color: var(--accent-color);
-}
+} */
 .address {
   color: var(--primary-bgc);
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 .footer-contacts .link {
@@ -187,13 +183,12 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
 }
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
-  color: var(--accent-color);
+  color: var(--primary-bgc);
 }
 
 /* Оформление страницы portfolio.html */
